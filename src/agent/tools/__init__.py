@@ -1,1 +1,1 @@
-"""Reserved for future agent tools; none are implemented in the foundation."""
+"""Read-only tools available to the price forecasting assistant."""

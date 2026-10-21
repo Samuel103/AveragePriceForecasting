@@ -34,13 +34,32 @@ uv run agent
 Use `/exit`, `/quit`, Ctrl-C, or Ctrl-D to leave. Empty input is ignored. Successful
 turns are kept in memory until exit; failed requests leave that history intact.
 History is not saved between launches. SDK tracing is disabled for both providers.
-The assistant currently explains concepts only: historical prices, forecasts,
-web research, custom tools, and MCP are not connected.
+For questions about forecast results, the assistant is instructed to call its
+read-only `read_forecasts` tool, which reads the current pipeline export at
+`src/forecasting/data/predictions/forecasts.json` independently of the working
+directory. The old `data/forecasts.json` is not used. The export is reread on each
+query so newly generated predictions are available without restarting the chat.
+
+The tool filters by full product name or case/accent-insensitive substring and
+an exact month (`date`, `YYYY-MM`) or inclusive range (`start_date`, `end_date`).
+Omitting filters lists available predictions and French product names. Product
+variants and package sizes remain separate. It returns sorted prices and, when
+at least two months match a product, the first-to-last absolute/percentage change
+and trend across available observations. A zero starting price has no percentage
+change. Missing months are not filled, and a single month has no trend.
+Missing/unreadable files, malformed exports, unknown products and unavailable
+months return explicit statuses instead of fabricated prices.
+
+For example: “Quel est le prix prévu des bananes en octobre 2026 ?” or
+“Comment évolue le prix prévu du lait entre septembre et octobre 2026 ?”
+The assistant has no observed historical-price or web-research tools.
+Ollama models must support function calling to query the forecasts.
 
 The code follows `src/agent/AGENTS.md`: `agents/` defines the assistant,
 `models/settings.py` validates configuration, `services/model_provider.py` selects
 and manages the model client, `workflows/chat.py` runs conversations, and `main.py`
-handles the CLI. `tools/` is reserved for future tools.
+handles the CLI. `tools/read_forecasts.py` exposes the SDK tool and
+`services/forecasts.py` reads, validates and queries the export.
 
 Run the offline tests (no credentials or running Ollama needed):
 
