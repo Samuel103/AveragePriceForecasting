@@ -1,0 +1,164 @@
+﻿"Titre du cube";"Numéro d'identification du produit";"Numéro d'identification de CANSIM";URL;"Notes sur le cube";"État de l'archivage";Fréquence;"Début de la période de référence";"Fin de la période de référence";"Nombre total de dimensions"
+"Prix de détail moyens mensuels pour certains produits";"18100245";;"https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=1810024501";1,2,5,6;"ACTIF - un cube qui est disponible au public et qui est toujours mise a jour";"Mensuelle";"2017-01-01";"2026-08-01";"2";
+
+"Numéro d'identification de la dimension";"Nom de la dimension";"Notes sur la dimension";"Définitions de la dimension"
+"1";"Géographie";;""
+"2";"Produits";;""
+
+"Numéro d'identification de la dimension";"Nom du membre";"Code sur la classification";"Numéro d'identification du membre";"Numéro d'identification du membre parent";Terminé;"Notes sur le membre";"Définitions du membre"
+"1";"Canada";"[11124]";"11";"";"";;
+"1";"Terre-Neuve-et-Labrador";"[10]";"1";"11";"";;
+"1";"Île-du-Prince-Édouard";"[11]";"2";"11";"";;
+"1";"Nouvelle-Écosse";"[12]";"3";"11";"";;
+"1";"Nouveau-Brunswick";"[13]";"4";"11";"";;
+"1";"Québec";"[24]";"5";"11";"";;
+"1";"Ontario";"[35]";"6";"11";"";;
+"1";"Manitoba";"[46]";"7";"11";"";;
+"1";"Saskatchewan";"[47]";"8";"11";"";;
+"1";"Alberta";"[48]";"9";"11";"";;
+"1";"Colombie-Britannique";"[59]";"10";"11";"";;
+"1";"Whitehorse, Yukon";"[1023]";"12";"11";"";;
+"1";"Yellowknife, Territoires du Nord-Ouest";"[1044]";"13";"11";"";;
+"2";"Boeuf à ragoût, par kilogramme";"";"1";"";"";3;
+"2";"Contrefilets de boeuf, par kilogramme";"";"2";"";"";3;
+"2";"Hauts de surlonge de boeuf, par kilogramme";"";"3";"";"";3;
+"2";"Côtes de boeuf, par kilogramme";"";"41";"";"";3;
+"2";"Boeuf haché, par kilogramme";"";"4";"";"";3;
+"2";"Longes de porc, par kilogramme";"";"5";"";"";3;
+"2";"Côtes de porc, par kilogramme";"";"6";"";"";3;
+"2";"Épaule de porc, par kilogramme";"";"42";"";"";3;
+"2";"Poulet entier, par kilogramme";"";"7";"";"";3;
+"2";"Poitrines de poulet, par kilogramme";"";"8";"";"";3;
+"2";"Hauts de cuisse de poulet, par kilogramme";"";"9";"";"";3;
+"2";"Pilons de poulet, par kilogramme";"";"43";"";"";3;
+"2";"Bacon, 500 grammes";"";"10";"";"";4;
+"2";"Saucisses fumées, 400 grammes";"";"11";"";"";4;
+"2";"Saumon, par kilogramme";"";"78";"";"";3;
+"2";"Crevette, 300 grammes";"";"79";"";"";4;
+"2";"Saumon en conserve, 213 grammes";"";"44";"";"";4;
+"2";"Thon en conserve, 170 grammes";"";"12";"";"";3;
+"2";"Burgers sans viande, 226 grammes";"";"80";"";"";4;
+"2";"Lait, 1 litre";"";"13";"";"";3;
+"2";"Lait, 2 litres";"";"14";"";"";3;
+"2";"Lait, 4 litres";"";"15";"";"";3;
+"2";"Lait de soja, 1,89 litres";"";"81";"";"";4;
+"2";"Lait de noix, 1,89 litres";"";"82";"";"";4;
+"2";"Crème, 1 litre";"";"16";"";"";3;
+"2";"Beurre, 454 grammes";"";"17";"";"";3;
+"2";"Margarine, 907 grammes";"";"83";"";"";4;
+"2";"Fromage en bloc, 500  grammes";"";"18";"";"";4;
+"2";"Yogourt, 500 grammes";"";"19";"";"";4;
+"2";"Oeufs, 1 douzaine";"";"20";"";"";3;
+"2";"Pommes, par kilogramme";"";"21";"";"";3;
+"2";"Oranges, par kilogramme";"";"22";"";"";3;
+"2";"Oranges, 1,36 kilogrammes";"";"23";"";"";3,4;
+"2";"Bananes, par kilogramme";"";"24";"";"";3;
+"2";"Poires, par kilogramme";"";"25";"";"";3;
+"2";"Citrons, unité";"";"26";"";"";3;
+"2";"Limes, unité";"";"45";"";"";3;
+"2";"Raisins, par kilogramme";"";"27";"";"";3;
+"2";"Cantaloup, unité";"";"28";"";"";3;
+"2";"Fraises, 454 grammes";"";"84";"";"";4;
+"2";"Avocat, unité";"";"29";"";"";3;
+"2";"Pommes de terre, 4,54 kilogrammes";"";"30";"";"";3;
+"2";"Pommes de terre, par kilogramme";"";"46";"";"";3;
+"2";"Patates douces, par kilogramme";"";"47";"";"";3;
+"2";"Tomates, par kilogramme";"";"31";"";"";3;
+"2";"Chou, par kilogramme";"";"32";"";"";3;
+"2";"Carottes, 1,36 kilogrammes";"";"33";"";"";4;
+"2";"Oignons, par kilogramme";"";"34";"";"";3;
+"2";"Oignons, 1,36 kilogrammes";"";"35";"";"";4;
+"2";"Céleri, unité";"";"36";"";"";3;
+"2";"Concombre, unité";"";"37";"";"";3;
+"2";"Champignons, 227 grammes";"";"38";"";"";4;
+"2";"Laitue iceberg, unité";"";"48";"";"";3;
+"2";"Laitue romaine, unité";"";"49";"";"";3;
+"2";"Brocoli, unité";"";"39";"";"";3;
+"2";"Poivrons, par kilogramme";"";"40";"";"";3;
+"2";"Courge, par kilogramme";"";"85";"";"";3;
+"2";"Légumes-feuilles, 142 grammes";"";"86";"";"";4;
+"2";"Pommes de terre frites surgelées, 750 grammes";"";"50";"";"";4;
+"2";"Haricots verts surgelés, 750 grammes";"";"51";"";"";4;
+"2";"Brocoli surgelé, 500 grammes";"";"52";"";"";3;
+"2";"Maïs surgelé, 750 grammes";"";"53";"";"";4;
+"2";"Mélange de légumes surgelé, 750 grammes";"";"54";"";"";4;
+"2";"Petits pois surgelés, 750 grammes";"";"55";"";"";4;
+"2";"Pizza surgelé, 390 grammes";"";"87";"";"";4;
+"2";"Épinard surgelé, 300 grammes";"";"88";"";"";4;
+"2";"Fraises surgelé, 600 grammes";"";"89";"";"";3;
+"2";"Pain blanc, 675 grammes";"";"56";"";"";4;
+"2";"Pain sans levain et pita, 500 grammes";"";"90";"";"";4;
+"2";"Craquelins et pain croustillant, 200 grammes";"";"91";"";"";3;
+"2";"Biscuits et biscuits sucrés, 300 grammes";"";"92";"";"";4;
+"2";"Pâtes sèches ou fraîches, 500 grammes";"";"57";"";"";4;
+"2";"Riz complet, 900 grammes";"";"93";"";"";4;
+"2";"Riz blanc, 2 kilogrammes";"";"94";"";"";4;
+"2";"Céréales, 400 grammes";"";"58";"";"";4;
+"2";"Farine de blé, 2,5 kilogrammes";"";"59";"";"";4;
+"2";"Sucre blanc, 2 kilogrammes";"";"60";"";"";4;
+"2";"Jus de pomme, 2 litres";"";"61";"";"";4;
+"2";"Jus d’orange, 2 litres";"";"62";"";"";4;
+"2";"Café torréfié ou moulu, 340 grammes";"";"63";"";"";4;
+"2";"Thé (20 sachets)";"";"64";"";"";3;
+"2";"Ketchup, 1 litre";"";"65";"";"";4;
+"2";"Huile végétale, 3 litres";"";"66";"";"";4;
+"2";"Huile de canola, 3 litres";"";"95";"";"";4;
+"2";"Huile d'olive, 1 litre";"";"96";"";"";4;
+"2";"Aliments pour bébés, 128 millilitres";"";"67";"";"";4;
+"2";"Préparation pour nourrissons, 900 grammes";"";"97";"";"";4;
+"2";"Beurre d’arachide, 1 kilogramme";"";"68";"";"";4;
+"2";"Mayonnaise, 890 millilitres";"";"69";"";"";4;
+"2";"Fèves au lard en conserve, 398 millilitres";"";"70";"";"";4;
+"2";"Tomates en conserve, 796 millilitres";"";"71";"";"";4;
+"2";"Soupe en conserve, 284 millilitres";"";"72";"";"";4;
+"2";"Haricots et lentilles en conserve, 540 millilitres";"";"73";"";"";3;
+"2";"Maïs en conserve, 341 millilitres";"";"98";"";"";4;
+"2";"Pêche en conserve, 398 millilitres";"";"99";"";"";4;
+"2";"Poire en conserve, 398 millilitres";"";"100";"";"";4;
+"2";"Lentilles séchées, 900 grammes";"";"74";"";"";4;
+"2";"Haricots et légumineuses secs, 900 grammes";"";"101";"";"";4;
+"2";"Tofu, 350 grammes";"";"102";"";"";4;
+"2";"Houmous, 227 grammes";"";"103";"";"";4;
+"2";"Salsa, 418 millilitres";"";"104";"";"";4;
+"2";"Sauce pour pâtes, 650 millilitres";"";"105";"";"";4;
+"2";"Vinaigrette, 475 millilitres";"";"106";"";"";4;
+"2";"Amandes, 200 grammes";"";"107";"";"";4;
+"2";"Arachides, 450 grammes";"";"108";"";"";4;
+"2";"Graines de tournesol, 400 grammes";"";"109";"";"";4;
+"2";"Déodorant, 85 grammes";"";"75";"";"";4;
+"2";"Dentifrice, 100 millilitres";"";"76";"";"";4;
+"2";"Shampooing, 400 millilitres";"";"77";"";"";4;
+"2";"Détergent à lessive, 4,43 litres";"";"110";"";"";4;
+
+Légende Symbole
+Description;Symbole
+"indisponible pour une période de référence précise";"..";
+"inférieur à la limite de détection";"<LDD";
+"valeur arrondie à 0 (zéro) là où il y a une distinction importante entre le zéro absolu et la valeur arrondie";"0s";
+"qualité des données : excellente";"A";
+"qualité des données : très bonne";"B";
+"qualité des données : bonne";"C";
+"qualité des données : acceptable";"D";
+"à utiliser avec prudence";"E";
+"trop peu fiable pour être publié";"F";
+"n'ayant pas lieu de figurer";"...";
+"provisoire";"p";
+"révisé";"r";
+"confidentiel en vertu des dispositions de la Loi sur la statistique";"x";
+"terminé";"t";
+
+"Code d'enquête";"Nom de l'enquête"
+"2301";"Indice des prix à la consommation"
+
+"Code du sujet";"Nom du sujet"
+"18";"Prix et indices des prix"
+
+"Numéro d'identification de la note";Note
+1;"Les estimations du prix moyen de ces produits sont calculées à l’aide des données sur les transactions de détaillants en alimentation canadiens. La composition d’une catégorie de produit donnée peut changer avec le temps en raison de l’évolution des habitudes d’achat des consommateurs et de la disponibilité des produits.  Par conséquent, les utilisateurs doivent faire preuve de prudence lorsqu’ils comparent les prix moyens au fil du temps, car les prix moyens peuvent ne pas être entièrement comparables d’un mois à l’autre et ne doivent pas être utilisés comme une mesure représentative de la variation pure des prix au fil du temps. Remarque : Les données sont sujettes à révision."
+2;"Afin d'obtenir des renseignements sur les concepts et les définitions, veuillez consulter le <a href="https://www150.statcan.gc.ca/n1/pub/62f0014m/62f0014m2022007-fra.htm" rel="external noopener noreferrer" target="_blank">Supplément méthodologique pour le tableau des prix de détail moyens mensuels (ouvre une nouvelle fenêtre)</a> qui est disponible dans la Série analytique des prix (62F0014M). Des renseignements supplémentaires, y compris les détails du produit, peuvent être obtenus auprès de la <a href="mailto:statcan.cpddisseminationunit-dpcunitedediffusion.statcan@statcan.gc.ca">Division des prix à la consommation</a>."
+3;"Taille spécifique - Dans la plupart des cas, une taille ou une quantité spécifique peut être facilement identifiée comme la mesure la mieux adaptée à un produit particulier. Pour certains produits, une taille ou une quantité spécifique est la plus couramment achetée dans une proportion considérable (par exemple, une douzaine d'œufs). D'autres produits ont plusieurs tailles très vendues sur une large gamme (par exemple, le lait). Dans ce cas, nous calculons des prix moyens distincts pour des tailles multiples (1 litre, 2 litres et 4 litres) afin de fournir une image plus complète. D'autres produits, tels que les produits frais et les viandes, sont souvent vendus au poids, et leur prix est indiqué par kilogramme. Dans ces cas, un kilogramme est appliqué comme taille spécifique. Ces produits sont ensuite normalisés pour que le prix par kilogramme soit inclus dans le calcul du prix moyen. La taille spécifique fournit à elle seule une couverture suffisante pour produire une mesure robuste."
+4;"Taille standardisée - Pour certains produits qui sont disponibles pour les consommateurs dans une grande variété de tailles d'emballage, les prix des produits dans une gamme déterminée de tailles d'emballage sont normalisés avant le calcul du prix moyen. Par exemple, les prix des blocs de fromage dont la taille varie de 400 grammes à 800 grammes sont ajustés pour représenter un bloc de fromage de 500 grammes et sont présentés comme tels dans le tableau des prix moyens."
+5;"Au moment de la diffusion des données pour le mois de référence de janvier 2024, ce tableau a été mis à jour afin d'incorporer les données de détaillants en alimentation additionnels, augmentant ainsi l'échantillon de données sur les prix utilisées dans le calcul du prix moyen mensuel. Cette amélioration élargit la couverture et améliore la qualité des données, tout en assurant la représentativité des prix payés par les consommateurs canadiens. Les utilisateurs devront continuer à faire preuve de prudence lorsqu'ils comparent les prix moyens au fil du temps et lorsqu'ils interprètent la variation sur un mois pour janvier 2024 et la variation sur 12 mois pour les 12 mois suivants. "
+6;"Au moment de la diffusion des données pour le mois de référence de septembre 2025, ce tableau a été mis à jour afin d'inclure les données du Yukon et des Territoires du Nord-Ouest. Veuillez noter que, pour des raisons de confidentialité des données, les 110 prix moyens ne sont pas tous disponibles pour ces deux régions."
+
+"Numéro d'identification de la correction";"Date de la correction";"Note sur la correction"
